@@ -17,12 +17,12 @@ let package = Package(
         .package(
             name: "SwiftyJSON",
             url: "https://github.com/SwiftyJSON/SwiftyJSON.git",
-            from: "4.0.0"
+            .upToNextMajor(from: "5.0.1")
         ),
         .package(
             name: "SocketIO",
             url: "https://github.com/socketio/socket.io-client-swift.git", 
-           from: "16.1.0"
+           .upToNextMajor(from: "16.1.0")
         ),
         .package(
             name: "SwiftyBeaver",
@@ -32,23 +32,23 @@ let package = Package(
         .package(
             name: "MMWormhole",
             url: "https://github.com/JioMeet/MMWormhole.git",
-            from: "2.1.0"
+            .upToNextMajor(from: "2.1.0")
         ),
     ],
     targets: [
         .binaryTarget(
             name: "JMMediaStackSDK",
-            url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/v_1_0_0/JMMediaStackSDK2.xcframework.zip",
-            checksum: "5777f7ac4636137a8f0e36fdbb02c27a89c3197184add21b06883e8b62609a2a"
+            url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/dynamic/v_1_0_0/JMMediaStackSDK.xcframework.zip",
+            checksum: "ada6a45161b37540da235bb0d912a65833aa4541576fddf3b58993052c072f4c"
         ),
         .binaryTarget(
             name: "Mediasoup",
-            url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/v_1_0_0/Mediasoup.xcframework.zip",
+            url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/static/v_1_0_0/single/Mediasoup.xcframework.zip",
             checksum: "756904959dbe4bbf3bc843dff64548d89c8ea54226e81982b84d234d128901f1"
         ),
         .binaryTarget(
             name: "WebRTC",
-            url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/v_1_0_0/WebRTC.xcframework.zip",
+            url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/static/v_1_0_0/single/WebRTC.xcframework.zip",
             checksum: "0ca49f18e1e099bc1732c1949cc50111d79086ed575136477207e8646a553b2f"
         ),
         .target(

@@ -1,5 +1,5 @@
-specVersion = '0.0.1'
-frameworkSourceUrl = 'https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/v_1_0_0/JMMediaStackSDK_iOS_1_1_0.zip'
+specVersion = '0.0.2'
+frameworkSourceUrl = 'https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/v_1_0_0/JMMediaStackSDK_iOS_1_1_0_full.zip'
 
 specAuthors = {
     'Rohit Kumar' => 'rohit41.kumar@ril.com',
@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => 'Copyright', :text => 'COPYRIGHT 2022 JIO PLATFORMS LIMITED. ALL RIGHTS RESERVED.\n' }
   spec.authors       = specAuthors
   spec.platform = :ios
-  spec.ios.deployment_target = '13.0'
+  spec.ios.deployment_target = '12.0'
   #spec.platform     = :ios, '12'
   spec.swift_versions = ['5']
   spec.source       = { :http => frameworkSourceUrl }
