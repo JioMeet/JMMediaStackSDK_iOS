@@ -1,5 +1,5 @@
-specVersion = '1.0.0-alpha.3'
-frameworkSourceUrl = 'https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/v_1_0_0_alpha_3/JMMediaStackSDK_1_0_0_alpha_3.zip'
+specVersion = '1.0.0'
+frameworkSourceUrl = 'https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/static/webrtc/v_1_0_0/JMMediaWebRtc_1_0_0.zip'
 
 specAuthors = {
     'Rohit Kumar' => 'rohit41.kumar@ril.com',
@@ -15,7 +15,7 @@ specAuthors = {
 
 Pod::Spec.new do |spec|
 
-  spec.name         = 'JMMediaStackSDK_iOS'
+  spec.name         = 'JMMediaWebRtc_iOS'
   spec.version      = specVersion
   spec.summary      = 'JioMeet iOS RTC Media Stack SDK'
   spec.description  = 'iOS library for JioMeet A/V communication and data channel service.'
@@ -27,12 +27,7 @@ Pod::Spec.new do |spec|
   #spec.platform     = :ios, '12'
   spec.swift_versions = ['5']
   spec.source       = { :http => frameworkSourceUrl }
-  spec.vendored_frameworks = 'JMMediaStackSDK.xcframework'
+  spec.vendored_frameworks = 'libs/Mediasoup.xcframework', 'libs/WebRTC.xcframework'
   spec.ios.framework  = 'UIKit'
   spec.frameworks = "AVFoundation", "AudioToolbox", "CoreAudio", "CoreMedia", "CoreVideo"
-  spec.dependency 'SwiftyJSON'
-  spec.dependency 'Socket.IO-Client-Swift', '~> 16.1.0'
-  spec.dependency 'MMWormhole'
-  spec.dependency 'VoiceActivityDetector'
-  spec.dependency 'JMMediaWebRtc_iOS', '1.0.0'
 end
