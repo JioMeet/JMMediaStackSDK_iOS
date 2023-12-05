@@ -1,5 +1,5 @@
-specVersion = '1.0.0-alpha.2'
-frameworkSourceUrl = 'https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/v_1_0_0_alpha_2/JMMediaStackSDK_iOS_1_0_0_alpha_2.zip'
+specVersion = '1.0.0-alpha.3'
+frameworkSourceUrl = 'https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/v_1_0_0_alpha_3/JMMediaStackSDK_1_0_0_alpha_3.zip'
 
 specAuthors = {
     'Rohit Kumar' => 'rohit41.kumar@ril.com',
