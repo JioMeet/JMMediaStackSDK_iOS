@@ -34,6 +34,11 @@ let package = Package(
             url: "https://github.com/JioMeet/MMWormhole.git",
             .upToNextMajor(from: "2.1.0")
         ),
+        .package(
+            name: "VoiceActivityDetector",
+            url: "https://github.com/JioMeet/VoiceActivityDetector.git",
+            .upToNextMajor(from: "0.3.0")
+        ),
     ],
     targets: [
         .binaryTarget(
@@ -61,6 +66,7 @@ let package = Package(
                 .product(name: "SocketIO", package: "SocketIO"),
                 .product(name: "SwiftyBeaver", package: "SwiftyBeaver"),
                 .product(name: "MMWormhole", package: "MMWormhole"),
+                .product(name: "VoiceActivityDetector", package: "VoiceActivityDetector"),
             ],
             path: "Framework/Dependency",
             exclude: []
