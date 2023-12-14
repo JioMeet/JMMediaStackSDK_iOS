@@ -25,26 +25,21 @@ let package = Package(
            .upToNextMajor(from: "16.1.0")
         ),
         .package(
-            name: "SwiftyBeaver",
-            url: "https://github.com/SwiftyBeaver/SwiftyBeaver.git", 
-           .upToNextMajor(from: "2.0.0")
-        ),
-        .package(
             name: "MMWormhole",
             url: "https://github.com/JioMeet/MMWormhole.git",
             .upToNextMajor(from: "2.1.0")
         ),
         .package(
             name: "VoiceActivityDetector",
-            url: "https://github.com/JioMeet/VoiceActivityDetector.git",
-            .upToNextMajor(from: "0.3.0")
+            url: "https://github.com/JioMeet/WebRtcVad.git",
+            .exact("1.0.0")
         ),
     ],
     targets: [
         .binaryTarget(
             name: "JMMediaStackSDK",
-            url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/dynamic/v_1_0_0/JMMediaStackSDK.xcframework.zip",
-            checksum: "ada6a45161b37540da235bb0d912a65833aa4541576fddf3b58993052c072f4c"
+            url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/dynamic/v_1_0_0_alpha_2/JMMediaStackSDK.xcframework.zip",
+            checksum: "c69652222aaf8c69a6afd96110a440664e4af4b59f37a86f3d403168ef368f81"
         ),
         .binaryTarget(
             name: "Mediasoup",
@@ -64,7 +59,6 @@ let package = Package(
                 .target(name: "WebRTC"),
                 .product(name: "SwiftyJSON", package: "SwiftyJSON"),
                 .product(name: "SocketIO", package: "SocketIO"),
-                .product(name: "SwiftyBeaver", package: "SwiftyBeaver"),
                 .product(name: "MMWormhole", package: "MMWormhole"),
                 .product(name: "VoiceActivityDetector", package: "VoiceActivityDetector"),
             ],
