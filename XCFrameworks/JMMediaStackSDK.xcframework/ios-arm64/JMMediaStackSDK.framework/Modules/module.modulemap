@@ -1,0 +1,6 @@
+framework module JMMediaStackSDK {
+  umbrella header "JMMediaStackSDK.h"
+  export *
+
+  module * { export * }
+}
