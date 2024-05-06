@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/JMMediaStackSDK-Swift.h</key>
+		<data>
+		sLSDjSNVi809jjovk21sHSX0RB0=
+		</data>
 		<key>Headers/JMMediaStackSDK.h</key>
 		<data>
 		eW8Zr14RTXQgcBHf2nmYgT5drhc=
@@ -12,13 +16,60 @@
 		<data>
 		ekBDKeG6bVgKMzIDwNnKqIlag1g=
 		</data>
+		<key>Modules/JMMediaStackSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		tpb9IXHck0wS+s8MZZ2LmYwiKGY=
+		</data>
+		<key>Modules/JMMediaStackSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		a6HZTPxlBZBVDQUfs3yzsWk6iWo=
+		</data>
+		<key>Modules/JMMediaStackSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		ICDM7gBLicmCeEvaEgP7Hzf9L0g=
+		</data>
+		<key>Modules/JMMediaStackSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		a6HZTPxlBZBVDQUfs3yzsWk6iWo=
+		</data>
+		<key>Modules/JMMediaStackSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		UF4ZLwc5xNfO5dh/g2dCbvsmJu8=
+		</data>
+		<key>Modules/JMMediaStackSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		tpb9IXHck0wS+s8MZZ2LmYwiKGY=
+		</data>
+		<key>Modules/JMMediaStackSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		+Pz18+MMHdO4PDTT8/fqkDVUNoc=
+		</data>
+		<key>Modules/JMMediaStackSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		4oAGVududnChUpqELt5h3YihOWo=
+		</data>
+		<key>Modules/JMMediaStackSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		+Pz18+MMHdO4PDTT8/fqkDVUNoc=
+		</data>
+		<key>Modules/JMMediaStackSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		7nybqndMqoFdZGb7qS0S/9H5gpk=
+		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		ScbIARRsrQnHaI6aes0p0s9wisA=
+		prj4lTtQOsxBBYTTuWWDknflOrk=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/JMMediaStackSDK-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IfW3KCJ9tdsx7Blq0lgrBZUMVeyVlJ6CCtw3EIaDrrk=
+			</data>
+		</dict>
 		<key>Headers/JMMediaStackSDK.h</key>
 		<dict>
 			<key>hash2</key>
@@ -26,11 +77,81 @@
 			7vU2tUK3go1ieuOuooCnf8KY4P0ZnQYGBIiQAp596Zg=
 			</data>
 		</dict>
+		<key>Modules/JMMediaStackSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FzUQOcFCm+U1C7Yv1rWEUiT2+I3Z9qBvDQxY2uCOtLE=
+			</data>
+		</dict>
+		<key>Modules/JMMediaStackSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CyyA91b3XHbBJSHT7zgmmFzLaEcXTEoyFi3519NBN3Q=
+			</data>
+		</dict>
+		<key>Modules/JMMediaStackSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GS09V39Gx9V+5ZmwTompxIdlrc+w6fayuvci2/Gy9Fs=
+			</data>
+		</dict>
+		<key>Modules/JMMediaStackSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CyyA91b3XHbBJSHT7zgmmFzLaEcXTEoyFi3519NBN3Q=
+			</data>
+		</dict>
+		<key>Modules/JMMediaStackSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2w4ND7HQEW7rysUE20+CpmGExKh9q/FM+j8kNvcYGrI=
+			</data>
+		</dict>
+		<key>Modules/JMMediaStackSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FzUQOcFCm+U1C7Yv1rWEUiT2+I3Z9qBvDQxY2uCOtLE=
+			</data>
+		</dict>
+		<key>Modules/JMMediaStackSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZhKzFsOZvApULTbTxUWJiVAH3b7TD2F7OdZs5bvit9Y=
+			</data>
+		</dict>
+		<key>Modules/JMMediaStackSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			APkbjqIkLEBNADWX+Vv2ZLeMd7wlb2ctB7oAymCqFUg=
+			</data>
+		</dict>
+		<key>Modules/JMMediaStackSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZhKzFsOZvApULTbTxUWJiVAH3b7TD2F7OdZs5bvit9Y=
+			</data>
+		</dict>
+		<key>Modules/JMMediaStackSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			umkirSTrlfV9kUY6PMVx8STSfKBoRyA39VRyzB6/d8w=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+hluyGjtD2d2EECzttvcESOdqhZNPx/YcPjMIeGtvY4=
+			PpxryFjTUXN9BLxenuAZZZGnJzufl3cBCEKH4q82wQ4=
 			</data>
 		</dict>
 	</dict>
