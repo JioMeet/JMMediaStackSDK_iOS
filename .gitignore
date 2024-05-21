@@ -89,6 +89,7 @@ fastlane/test_output
 
 iOSInjectionProject/
 libs
-**/*/*.xcframework
+*.xcframework
 **/*/*.zip
 *.zip
+!XCFrameworks/*.xcframework
