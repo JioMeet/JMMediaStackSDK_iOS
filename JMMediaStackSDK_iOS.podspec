@@ -1,4 +1,4 @@
-specVersion = '1.0.0-alpha.3'
+specVersion = '1.1.1'
 frameworkSourceUrl = 'https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/v_1_0_0_alpha_3/JMMediaStackSDK_1_0_0_alpha_3.zip'
 
 specAuthors = {
@@ -26,13 +26,10 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = '12.0'
   #spec.platform     = :ios, '12'
   spec.swift_versions = ['5']
-  spec.source       = { :http => frameworkSourceUrl }
-  spec.vendored_frameworks = 'JMMediaStackSDK.xcframework'
+  spec.source       = { :git => 'https://github.com/JioMeet/JMMediaStackSDK_iOS.git' }
+  spec.source_files = "Framework/**/*.{h,m,swift}"
+  spec.vendored_frameworks = 'XCFrameworks/JMMediaStackSDK.xcframework'
   spec.ios.framework  = 'UIKit'
   spec.frameworks = "AVFoundation", "AudioToolbox", "CoreAudio", "CoreMedia", "CoreVideo"
-  spec.dependency 'SwiftyJSON'
-  spec.dependency 'Socket.IO-Client-Swift', '~> 16.1.0'
-  spec.dependency 'MMWormhole'
-  spec.dependency 'VoiceActivityDetector'
   spec.dependency 'JMMediaWebRtc_iOS', '1.0.0'
 end
