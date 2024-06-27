@@ -14,26 +14,6 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(
-            name: "SwiftyJSON",
-            url: "https://github.com/SwiftyJSON/SwiftyJSON.git",
-            .upToNextMajor(from: "5.0.1")
-        ),
-        .package(
-            name: "SocketIO",
-            url: "https://github.com/socketio/socket.io-client-swift.git", 
-           .upToNextMajor(from: "16.1.0")
-        ),
-        .package(
-            name: "MMWormhole",
-            url: "https://github.com/JioMeet/MMWormhole.git",
-            .upToNextMajor(from: "2.1.0")
-        ),
-        .package(
-            name: "VoiceActivityDetector",
-            url: "https://github.com/JioMeet/WebRtcVad.git",
-            .exact("1.0.0")
-        ),
     ],
     targets: [
         .binaryTarget(
@@ -55,11 +35,7 @@ let package = Package(
             dependencies: [
                 .target(name: "JMMediaStackSDK"),
                 .target(name: "Mediasoup"),
-                .target(name: "WebRTC"),
-                .product(name: "SwiftyJSON", package: "SwiftyJSON"),
-                .product(name: "SocketIO", package: "SocketIO"),
-                .product(name: "MMWormhole", package: "MMWormhole"),
-                .product(name: "VoiceActivityDetector", package: "VoiceActivityDetector"),
+                .target(name: "WebRTC")
             ],
             path: "Framework/Dependency",
             exclude: []
