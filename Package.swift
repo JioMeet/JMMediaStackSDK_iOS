@@ -38,8 +38,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "JMMediaStackSDK",
-            url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/dynamic/v_1_0_8/JMMediaStackSDK.xcframework.zip",
-            checksum: "f66aaa6143511509cfb67b5de4fe0715ffa615280cacc6b07d38a7586b396ee8"
+            url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/dynamic/1_0_8_alpha_1/JMMediaStackSDK.xcframework.zip",
+            checksum: "f0351306b33917e9e6e9611bf948b7f8aadfcf4791c2ac426d6f4d092e41bb01"
         ),
         .binaryTarget(
             name: "Mediasoup",
