@@ -27,7 +27,7 @@ let package = Package(
         .package(
             name: "MMWormhole",
             url: "https://github.com/JioMeet/MMWormhole.git",
-            .upToNextMajor(from: "3.0.1")
+            .upToNextMajor(from: "2.1.0")
         ),
         .package(
             name: "VoiceActivityDetector",
@@ -38,8 +38,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "JMMediaStackSDK",
-            url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/dynamic/1.0.8_alpha_2/JMMediaStackSDK.xcframework.zip",
-            checksum: "7ef8d92d47081ab44135fd4b0f6fb08f31a10d06adbbc4efa2c2fed6e6d89c60"
+            url: "https://storage.googleapis.com/cpass-sdk/libs/iOS/public/JMMedia/dynamic/1.0.8_alpha_3/JMMediaStackSDK.xcframework.zip",
+            checksum: "3a1b60b4ebeadd67cc42fb441fe0d49f3f242a815736ff18a5959fcb43c0e9de"
         ),
         .binaryTarget(
             name: "Mediasoup",
