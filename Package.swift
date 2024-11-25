@@ -27,7 +27,7 @@ let package = Package(
         .package(
             name: "MMWormhole",
             url: "https://github.com/JioMeet/MMWormhole.git",
-            .upToNextMajor(from: "2.1.0")
+            .upToNextMajor(from: "3.0.1")
         ),
         .package(
             name: "VoiceActivityDetector",
